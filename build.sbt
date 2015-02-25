@@ -12,10 +12,10 @@ resolvers ++= Seq("maven.org" at "http://repo2.maven.org/maven2",
                   "conjars.org" at "http://conjars.org/repo",
                   "liveramp-repositories" at "http://repository.liveramp.com/artifactory/liveramp-repositories")
 
-scalaVersion := "2.10.3"
+scalaVersion := "2.10.4"
 
 libraryDependencies ++= Seq(
-  "com.twitter" %% "scalding-core" % "0.11.2",
+  "com.twitter" %% "scalding-core" % "0.13.1",
   "org.apache.hadoop" % "hadoop-core" % "1.2.1",
   "com.liveramp" % "cascading_ext" % "1.6-SNAPSHOT"
 )

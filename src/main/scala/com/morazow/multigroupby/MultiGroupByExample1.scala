@@ -31,7 +31,7 @@ object MultiGroupByExample1 extends JobRunner {
   override val className = "com.morazow.multigroupby.MultiGroupByExample1"
   override val localModeArgs = Array(
     "--local",
-    "--purchases", "data/multiGroupBy/purchases.tsv",
-    "--userAges",  "data/multiGroupBy/user_ages.tsv",
+    "--purchases", "data/purchases.tsv",
+    "--userAges",  "data/user_ages.tsv",
     "--output",    "output/multi_groupBy1.tsv")
 }
